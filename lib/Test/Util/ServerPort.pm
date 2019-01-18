@@ -31,8 +31,8 @@ until it finds one that is not already bound.
 =end pod
 
 module Test::Util::ServerPort:ver<0.0.1>:auth<github:jonathanstowe> {
-    sub get-unused-port(Range $r = 1025 .. 65535) is export {
-	    sub try-one(Int $port) {
+    sub get-unused-port(Range $r = 1025 .. 65535 --> Int) is export {
+	    sub try-one(Int $port --> Bool ) {
 		    CATCH {
 			    default {
 				    return False;
