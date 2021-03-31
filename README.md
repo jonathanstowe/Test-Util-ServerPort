@@ -2,11 +2,11 @@
 
 Get a free server port for testing with
 
-[![Build Status](https://travis-ci.org/jonathanstowe/Test-Util-ServerPort.svg?branch=master)](https://travis-ci.org/jonathanstowe/Test-Util-ServerPort)
+![Build Status](https://github.com/jonathanstowe/Test-Util-ServerPort/workflows/CI/badge.svg)
 
 ## Synopsis
 
-```
+```raku
 
 use Test::Util::ServerPort;
 
@@ -29,8 +29,7 @@ until it finds one that is not already bound.
 
 ## Installation
 
-Assuming you have a working Rakudo Perl 6 installation you should be able to
-install this with *zef* :
+Assuming you have a working Rakudo installation you should be able to install this with *zef* :
 
     # From the source directory
    
@@ -53,4 +52,4 @@ This is free software.
 
 Please see the [LICENCE](LICENCE) file in the distribution for details.
 
-© Jonathan Stowe 2016, 2017
+© Jonathan Stowe 2016 - 2021

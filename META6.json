@@ -1,6 +1,6 @@
 {
   "name": "Test::Util::ServerPort",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "auth": "github:jonathanstowe",
   "api": "1.0",
   "description": "Get a free server port for testing with",
@@ -9,6 +9,7 @@
     "source": "git://github.com/jonathanstowe/Test-Util-ServerPort.git"
   },
   "perl": "6.*",
+  "raku": "6.*",
   "resources": [
   ],
   "build-depends": [
@@ -31,5 +32,5 @@
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],  
-  "meta-version": "0"
+  "meta-version": "1"
 }

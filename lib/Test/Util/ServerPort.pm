@@ -30,7 +30,7 @@ until it finds one that is not already bound.
 
 =end pod
 
-module Test::Util::ServerPort:ver<0.0.2>:auth<github:jonathanstowe>:api<1.0> {
+module Test::Util::ServerPort:ver<0.0.3>:auth<github:jonathanstowe>:api<1.0> {
     sub get-unused-port(Range $r = 1025 .. 65535 --> Int) is export {
 	    sub try-one(Int $port --> Bool ) {
 		    CATCH {
@@ -50,4 +50,4 @@ module Test::Util::ServerPort:ver<0.0.2>:auth<github:jonathanstowe>:api<1.0> {
 	    }
     }
 }
-# vim: expandtab shiftwidth=4 ft=perl6
+# vim: expandtab shiftwidth=4 ft=raku
