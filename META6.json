@@ -2,7 +2,7 @@
   "description": "Get a free server port for testing with",
   "meta-version": "1",
   "provides": {
-    "Test::Util::ServerPort": "lib/Test/Util/ServerPort.pm"
+    "Test::Util::ServerPort": "lib/Test/Util/ServerPort.rakumod"
   },
   "license": "Artistic-2.0",
   "support": {
@@ -21,7 +21,7 @@
   ],
   "auth": "zef:jonathanstowe",
   "api": "1.0",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "resources": [
   ],
   "name": "Test::Util::ServerPort",

@@ -32,7 +32,7 @@
               "children": [
                 {
                   "type": "file",
-                  "name": "ServerPort.pm"
+                  "name": "ServerPort.rakumod"
                 }
               ],
               "name": "Util",
